@@ -61,9 +61,14 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+   const product = a * b;
+   console.log('a value', a)
+   console.log('b value',b)
+   return product;
 }
+
+console.log(multiply(3, 2))
 
 
 
